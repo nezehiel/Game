@@ -7,6 +7,7 @@ public class Game {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		// TODO Auto-generated method stub
+		System.out.print("Jakas zmiana \n");
 		System.out.print("Je¿eli masz ju¿ postaæ wciœnij jakiœ klawisz i enter. \nJe¿eli nie, wciœnij enter.\n");
 		Scanner choice = new Scanner(System.in);
 		String input = choice.nextLine();
